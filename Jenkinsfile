@@ -9,7 +9,7 @@ pipeline {
         stage('Running Script') {
             steps {
                 sh 'chmod +x system_admin.sh'
-                sh './system_admin.sh'
+                sh './linuxcommands_sh'
             }
         }
     }
