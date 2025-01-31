@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Running Script') {
             steps {
-                sh 'chmod +x system_admin.sh'
+                sh 'chmod +x linuxcommands_sh'
                 sh './linuxcommands_sh'
             }
         }
