@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/Ashwini2593/linux-bash-scripting.git'
+                git branch: 'main', url: 'https://github.com/DeeptiSingh2409/Jenkins_bash.git'
             }
         }
         stage('Running Script') {
