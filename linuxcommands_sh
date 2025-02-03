@@ -45,7 +45,7 @@ echo "File and Directory Management:"
 echo "-----------------------------"
 
 # Create a temporary directory
-TEMP_DIR="/tmp/tempdirashwini_$$"
+TEMP_DIR="/tmp/tempdirdeepti_$$"
 mkdir "$TEMP_DIR"
 echo "1. Created temporary directory: $TEMP_DIR"
 
